@@ -1,0 +1,10 @@
+[package]
+name = "spirogen"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.7"
+serde = { version = "1.0.213", features = ["derive"] }
+tiny-skia = "=0.11.4"
+tokio = { version = "1.41.0", features = ["full"] }
